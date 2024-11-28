@@ -104,6 +104,7 @@ void start_our_game() {
 }
 int main()
 {
+	cout << "\nI will push this code on git hub \n";
 	srand((unsigned)time(NULL));
 	start_our_game();
 }
