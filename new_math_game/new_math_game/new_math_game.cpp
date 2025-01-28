@@ -8,6 +8,7 @@ struct strquestion {
 	int number2;
 };
 int number_question() {
+	cout <<"\n\tChoosing number of Question Screen ...\n";
 	cout << "\n\nEnter number of questions : ";
 	int value;
 	cin >> value;
