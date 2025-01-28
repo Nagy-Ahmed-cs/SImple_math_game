@@ -8,6 +8,7 @@ struct strquestion {
 	int number2;
 };
 int number_question() {
+	cout <<"\n\tChoosing number of Question Screen ...\n";
 	cout << "\n\nEnter number of questions : ";
 	int value;
 	cin >> value;
@@ -104,6 +105,7 @@ void start_our_game() {
 }
 int main()
 {
+	cout << "\nI will push this code on git hub \n";
 	srand((unsigned)time(NULL));
 	start_our_game();
 }
